@@ -1,0 +1,118 @@
+@media only screen and (min-width: 700px) and (max-width: 1200px){
+body{
+  font-family: Arial;
+}
+h1{
+  text-align: center;
+}
+hr{
+  color: lightgray;
+  border: 1px solid lightgray;
+  margin-bottom: 2%;
+}
+#container{
+  min-width: 255px;
+  margin: 0 2%;
+  padding: 0 3%;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+#barra-ricerca{
+  text-align: right;
+  height: 25px;
+  width: 100%;
+
+}
+#searchbar{
+  width:83%;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 5px 0 0 5px;
+}
+#searchbar-button{
+  margin-left: -5px;
+  height: 29px;
+  width: 15%;
+  border: 1px solid gray;
+  border-radius: 0 5px 5px 0;
+}
+#immagini{
+  min-height: 1200px;
+  background-color: whitesmoke;
+  height: 100%;
+  padding: 5%;
+  margin-top: 30px;
+  text-align: center;
+
+}
+.img-container{
+  height: 60%;
+  width: 46%;
+  margin: 0 2% 20% 2%;
+  float: left;
+}
+.image{
+  height: 60%;
+  border: 1px solid lightgray;
+  background-color: white;
+}
+.img-container:hover div{
+  background-color: lightgray;
+}
+.copertina-film{
+  width: 200px;
+  height: 300px;
+  margin-bottom: -5px;
+}
+.image-recensione{
+  height: 40%;
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 2px 0;
+  text-align: center;
+}
+.stella{
+  width: 25px;
+  height: 25px;
+  margin: 0px 5px 0px 5px;
+}
+.title{
+  text-align: center;
+  margin-left: 6px;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+.valutazione{
+  font-size: 25px;
+  color: gray;
+  margin-top: 10px;
+}
+#numeri{
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  padding-top: 5%;
+  margin-left: 20%;
+  clear: both;
+}
+a{
+  text-decoration: none;
+}
+.numero{
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+}
+.bordato{
+  border: 1px solid black;
+}
+.link-pagina:hover{
+  font-weight: bold;
+}
+#autore{
+  float: right;
+  font-size: 12px;
+  width: 20%;
+}
+}
